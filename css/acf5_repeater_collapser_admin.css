@@ -24,7 +24,7 @@
 	position: relative;
 }
 
-.field_type-flexible_content .layout.row-layout {
+.field_type-flexible_content .has-row-layout {
 	padding-left: 30px;
 	background: transparent;
 }
@@ -70,7 +70,14 @@
 	position: relative;
 }
 
-.collapsed-row .acf-table tr {
+.collapsed-row .acf-table tr,
+/*
+There doesn't seem to be an .acf-table inside a collapsed row for repeater fields...
+.collapsed-row is in fact a tr
+*/
+.collapsed-row .acf-fields,
+/* Hide the add+remove buttons when collapsed */
+.collapsed-row .acf-row-handle .acf-icon {
 	display: none;
 }
 
