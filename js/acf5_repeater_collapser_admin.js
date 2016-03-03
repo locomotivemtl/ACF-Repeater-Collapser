@@ -139,7 +139,6 @@ jQuery(document).ready(function($) {
 	 * toggles set of repeater rows or flexible fields
 	 */
 	function acfRepeaterToggleAll(event) {
-		console.log('test')
 		var $rows,
 			$that = $(this),
 			$rowsetButton  = $that,
