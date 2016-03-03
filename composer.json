@@ -1,0 +1,14 @@
+{
+  "name": "locomotivemtl/ACF-Repeater-Collapser",
+  "description": "Fork of ACF-Repeater-Collapser repo for composer usage",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "ACF-Repeater-Collapser"
+  }
+}
